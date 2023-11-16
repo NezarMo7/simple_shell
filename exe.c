@@ -15,6 +15,8 @@ int exe(char **argus)
 
 	if (idi == 0)
 	{
+
+		printf("Executing: %s\n", argus[0]);
 		if (execve(argus[0], argus, environ) == -1)
 			perror("Error");
 	}
