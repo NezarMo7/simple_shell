@@ -31,6 +31,7 @@ char *see_path_char(char *com)
 
 		if (_path_sp[x][_path_leng - 1] != '/')
 			_path_con = _string_concat(_path_sp[x], "/");
+			_path_con = _string_copy(_path_sp[x], "");
 
 		_path_con = _string_concat(_path_sp[x], com);
 
