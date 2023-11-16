@@ -14,7 +14,7 @@ char *see_path_char(char *com)
 	char *_path = _get_enviro("PATH"), *_path_copy;
 	char **_path_sp;
 	char *_path_con = NULL;
-	int x = 0, _path_leng = 0;
+	int x = 0, _path_length = 0;
 	struct stat info;
 
 	if (stat(com, &info) == 0)
@@ -27,9 +27,9 @@ char *see_path_char(char *com)
 
 	while (_path_sp[x])
 	{
-		_path_leng = _string_len(_path_sp[x]);
+		_path_length = _string_len(_path_sp[x]);
 
-		if (_path_sp[x][_path_leng - 1] != '/')
+		if (_path_sp[x][_path_length - 1] != '/')
 			_path_con = _string_concat(_path_sp[x], "/");
 
 		_path_con = _string_concat(_path_sp[x], com);
