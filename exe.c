@@ -1,7 +1,6 @@
 #include "shell.h"
 
 /**
- *
  * exe - execute command path ,some handling
  *
  * @argus: arguments

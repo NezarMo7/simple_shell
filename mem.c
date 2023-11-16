@@ -1,7 +1,6 @@
 #include "shell.h"
 
 /**
- *
  * _callc_mem - function that using malloc
  *
  * @n_memory_b: array

@@ -1,7 +1,6 @@
 #include "shell.h"
 
 /**
- *
  * main - open program
  *
  * Return: ex_st

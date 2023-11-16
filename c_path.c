@@ -1,7 +1,6 @@
 #include "shell.h"
 
 /**
- *
  * see_path_char - get file from path
  *
  * @comm: cmd

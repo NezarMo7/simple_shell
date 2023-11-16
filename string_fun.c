@@ -1,7 +1,6 @@
 #include "shell.h"
 
 /**
- *
  * _string_cmpr - compares two strings
  *
  * @s_1: pointer
@@ -26,7 +25,6 @@ int _string_cmpr(char *s_1, char *s_2)
 }
 
 /**
- *
  * _string_copy - the function that copies strings
  *
  * @de: pointer
@@ -51,7 +49,6 @@ char *_string_copy(char *de, char *sr)
 }
 
 /**
- *
  * _sp_st - split string
  *
  * @st: string
@@ -86,7 +83,6 @@ char **_sp_st(char *st, char *se)
 }
 
 /**
- *
  * _string_concat - function
  *
  * @de: string
@@ -114,7 +110,6 @@ char *_string_concat(char *de, char *sr)
 }
 
 /**
- *
  * _string_len - string length
  *
  * @string: string

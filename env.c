@@ -1,7 +1,6 @@
 #include "shell.h"
 
 /**
- *
  * _get_enviro - get enviro var
  *
  * @enviro_va: enviro var
@@ -32,9 +31,8 @@ char *_get_enviro(char *enviro_va)
 }
 
 /**
- *
- *
  * _enviro - prints enviro
+ *
 */
 void _enviro(void)
 {

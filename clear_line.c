@@ -1,7 +1,6 @@
 #include "shell.h"
 
 /**
- *
  * clear_line - checks if exists a clear
  *
  * @Buf: line
