@@ -26,22 +26,21 @@ char *see_path_char(char *com)
 	_path_sp = _sp_st(_path_copy, ":");
 
 	while (_path_sp[x])
-{
-    _path_leng = _string_len(_path_sp[x]);
+	{
+		_path_leng = _string_len(_path_sp[x]);
 
-    if (_path_sp[x][_path_leng - 1] != '/')
-        _path_con = _string_concat(_path_sp[x], "/");
-    else
-        _path_con = _string_copy(_path_sp[x], "");
+		if (_path_sp[x][_path_leng - 1] != '/')
+			_path_con = _string_concat(_path_sp[x], "/");
+			_path_con = _string_copy(_path_sp[x], "");
 
-    _path_con = _string_concat(_path_con, com);
+		_path_con = _string_concat(_path_sp[x], com);
 
-    if (stat(_path_con, &info) == 0)
-        break;
+		if (stat(_path_con, &info) == 0)
+			break;
 
-    free(_path_con);
+free(_path_con);
 
-    x++;
+		x++;
 	}
 
 	free(_path_copy);
