@@ -37,8 +37,6 @@ char *see_path_char(char *com)
 		if (stat(_path_con, &info) == 0)
 			break;
 
-free(_path_con);
-
 		x++;
 	}
 
