@@ -5,7 +5,7 @@
  *
  * @s_1: pointer
  *
- * @s_1: pointer
+ * @s_2: pointer
  *
  * Return: zero
  *

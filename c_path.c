@@ -3,7 +3,7 @@
 /**
  * see_path_char - get file from path
  *
- * @comm: cmd
+ * @com: command
  *
  * Return: path
  *
