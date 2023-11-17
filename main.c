@@ -1,9 +1,10 @@
 #include "shell.h"
 
 /**
- * main - Entry point for program
+ * main - open program
  *
- * Return: Exit status from progrm
+ * Return: ex_st
+ *
  */
 
 int main(void)
