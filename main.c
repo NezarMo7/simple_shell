@@ -45,6 +45,7 @@ int main(void)
 		if (argus[0] != NULL)
 			ex_st = exe(argus);
 		else
+	{
 			perror("Error");
 			ex_st = 1;
 		free(argus);
