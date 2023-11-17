@@ -48,7 +48,7 @@ int main(void)
 	{
 			perror("Error");
 			ex_st = 1;
+		free(argus);
 	}
-free(argus);
-return (ex_st);
+	return (ex_st);
 }
